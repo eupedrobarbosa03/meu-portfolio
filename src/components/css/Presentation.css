@@ -1,0 +1,166 @@
+.presentation-container {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.minha-foto {
+    height: 270px;
+    width: 270px;
+    border-radius: 100%;
+    object-fit: cover;
+    filter: drop-shadow(0 0 5px #fff);
+    outline: 1px solid #fff;
+}
+
+.presentation-container-text-more-info {
+    min-height: 200px;
+}
+
+.presentation-container-text-more-info h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.presentation-container-text-more-info p {
+    max-width: 500px;
+    color: #a1a1a1;
+    font-size: .8rem;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.stack-presentation-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.stack-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    padding: .1rem .7rem;
+    background-color: rgba(0, 0, 0, .40);
+    transition: .5s;
+    &:hover {
+        background-color: transparent;
+    }
+}
+
+
+.stack-container p {
+    margin-top: 0px;
+    text-transform: uppercase;
+    font-size: .7rem;
+}
+
+.icon-language {
+    width: 15px;
+    height: 15px;
+}
+
+.container-download-cv-and-contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.button-download-cv {
+    height: 40px;
+    width: 120px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-family: 'Ubuntu-Bold';
+    border: 1px solid #a1a1a1;
+    transition: .5s;
+    &:hover {
+        background-color: transparent;
+        color: #fff;
+    }
+}
+
+.container-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    padding: .4rem 1.2rem;
+    background-color: rgba(0, 0, 0, .40);
+    transition: .5s;
+    text-decoration: none;
+    margin-top: 0px;
+    color: #a1a1a1;
+    text-transform: uppercase;
+    font-size: .7rem;
+    &:hover {
+        background-color: transparent;
+    }
+}
+
+.icon-contact {
+    width: 15px;
+    height: 15px;
+}
+
+
+
+@media (max-width: 700px) {
+
+    .presentation-container {
+        gap: 50px;
+    }
+
+    .minha-foto {
+        margin-top: 20px;
+        height: 220px;
+        width: 220px;
+    }
+
+    .presentation-container-text-more-info h2 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .presentation-container-text-more-info .about {
+        padding: .5rem;
+        font-size: .8rem;
+        text-align: center;
+    }
+
+    .stack-presentation-container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container-download-cv-and-contact {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .container-contact {
+        width: auto;
+    }
+
+
+}

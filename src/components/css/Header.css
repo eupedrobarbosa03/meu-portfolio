@@ -1,0 +1,29 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-header-pedro-dev {
+    font-size: 1.8rem;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .5s ease;
+}
+
+.title-header-pedro-dev span {
+    font-size: 1.3rem;
+    color: #999;
+    transition: .5s ease;
+}
+
+.title-header-pedro-dev span {
+    margin-right: 5px;
+}
+
+.title-header-pedro-dev.effect {
+    color: #999;
+    &.title-header-pedro-dev span {
+        color: #fff;
+    }
+}

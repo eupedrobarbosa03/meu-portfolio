@@ -1,0 +1,78 @@
+.chatbph-container {
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 220px;
+}
+
+.title-about-more-info-chatbph {
+    width: 400px;
+    margin-top: 40px;
+}
+
+.title-about-more-info-chatbph h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+}
+
+.title-about-more-info-chatbph p {
+    color: #a1a1a1;
+    font-size: .9rem;
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.title-about-more-info-chatbph a {
+    gap: 5px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    padding: .4rem 1.2rem;
+    background-color: #fff;
+    color: #000;
+    transition: .5s;
+    text-decoration: none;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    &:hover {
+        box-shadow: 1px 1px 10px #fff;
+    }
+}
+
+
+.icon-github {
+    width: 15px;
+    height: 15px;
+}
+
+.chatbph-iframe {
+    width: 700px;
+    height: 460px;
+    border: none;
+    background-color: transparent;
+}
+
+
+@media (max-width: 700px) {
+
+    .chatbph-container {
+        margin-top: 90px;
+    }
+
+    .chatbph-iframe {
+        margin-left: -5%;
+        width: 110%;
+    }
+
+    .title-about-more-info-chatbph p {
+        font-size: .8rem;
+    }
+
+}

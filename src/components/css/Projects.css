@@ -1,0 +1,50 @@
+.projects-container {
+    margin-top: 200px;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.title-container h2 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.line {
+    width: 100%;
+    border-bottom: 1px solid #a1a1a1;
+}
+
+.introduction-text {
+    margin-top: 20px;
+    color: #a1a1a1;
+    width: 80%;
+    line-height: 30px;
+    font-size: .95rem;
+}
+
+.projects {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media (max-width: 700px) {
+
+
+    .projects {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .introduction-text {
+        width: 100%;
+        font-size: .8rem;
+    }
+}
