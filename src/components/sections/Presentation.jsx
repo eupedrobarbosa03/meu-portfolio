@@ -17,7 +17,6 @@ const Presentation = () => {
         {icon: IconReact, name: "react"}
     ])
 
-
     return (
         <section className="presentation-container">
             <Reveal>
@@ -37,7 +36,7 @@ const Presentation = () => {
                     </div>
                     <div className='container-download-cv-and-contact'>
                         <a href={CV} download={'cv.pdf'} className='button-download-cv'>Baixar CV</a>
-                        <a href="https://www.linkedin.com/in/eupedrobarbosa/" className='container-contact' target='_blank'><img src={IconLinkedlin} className='icon-contact' />Linkedin</a>
+                        <a href="https://www.linkedin.com/in/eupedrobarbosa/https://wa.me/5561991313359" className='container-contact' target='_blank'><img src={IconLinkedlin} className='icon-contact' />Linkedin</a>
                         <a href="https://wa.me/5561991313359" target="_blank" className='container-contact'><img src={IconWhatsapp} className='icon-contact' />Whatsapp</a>
                     </div>
                 </div>
