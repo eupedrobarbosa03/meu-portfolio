@@ -64,11 +64,12 @@
 
     .chatbph-container {
         margin-top: 90px;
+        padding: 0;
     }
 
     .chatbph-iframe {
-        margin-left: -5%;
-        width: 110%;
+        margin-left: -15%;
+        width: 130%;
     }
 
     .title-about-more-info-chatbph p {
