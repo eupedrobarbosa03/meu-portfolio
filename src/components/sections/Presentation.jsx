@@ -26,7 +26,7 @@ const Presentation = () => {
             </Reveal>
             <Reveal>
                 <div className='presentation-container-text-more-info'>
-                    <h2 className={`${animation}`}>{title} {`</>`}</h2>
+                    <h2>Desenvolvedor Front-End{`</>`}</h2>
                     <p className='about'>Prazer, meu nome é Pedro Henrique. Tenho 20 anos e sempre foi uma paixão o mundo dos códigos. Sou um desenvolvedor front-end com foco em javascript, typescript e react. Atualmente estou me formando em análise e desenvolvimento de sistemas.</p>
                     <div className='stack-presentation-container'>
                         {stacks.map((stack) => (
