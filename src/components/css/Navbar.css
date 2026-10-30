@@ -44,13 +44,11 @@
         position: fixed;
         top: 0;
         right: 0;
-
         width: 50%;
         height: 100vh;
 
         padding-left: 1.5rem;
 
-        background: #111;
         box-shadow: 1px 1px 5px #fff;
 
         transform: translateX(100%);
@@ -68,6 +66,7 @@
 
     .navbar-container.show-navbar {
         transform: translateX(0);
+        backdrop-filter: blur(10px);
     }
 
     a {
