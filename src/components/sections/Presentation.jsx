@@ -4,6 +4,8 @@ import Reveal from '../animations/Reveal'
 import CV from '../../assets/cv.pdf'
 import { useState } from 'react'
 import { useIcons } from '../../hooks/useIcons'
+import { useEffect } from 'react'
+import { useCallback } from 'react'
 
 const Presentation = () => {
 
@@ -24,7 +26,7 @@ const Presentation = () => {
             </Reveal>
             <Reveal>
                 <div className='presentation-container-text-more-info'>
-                    <h2>Desenvolvedor Front-end {`</>`}</h2>
+                    <h2 className={`${animation}`}>{title} {`</>`}</h2>
                     <p className='about'>Prazer, meu nome é Pedro Henrique. Tenho 20 anos e sempre foi uma paixão o mundo dos códigos. Sou um desenvolvedor front-end com foco em javascript, typescript e react. Atualmente estou me formando em análise e desenvolvimento de sistemas.</p>
                     <div className='stack-presentation-container'>
                         {stacks.map((stack) => (

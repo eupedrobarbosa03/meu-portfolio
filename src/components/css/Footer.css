@@ -8,18 +8,11 @@
     }
 }
 
-.footer-informations {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
 .about-and-navlinks-container {
     display: flex;
-    flex-direction: column;
     gap: 10px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .about-portfolio-container {
@@ -30,29 +23,28 @@
 .about-portfolio-container h2 {
     color: #fff;
     text-transform: uppercase;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .about-portfolio-container p {
     color: #a1a1a1;
     line-height: 20px;
     margin-top: 5px;
-    font-size: .9rem;
+    font-size: .8rem;
+    text-align: left;
 }
 
-.navbar-links-footer-container {
-    margin-top: 10px;
-}
 
 .navbar-links-footer-container h2 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: #fff;
     text-transform: uppercase;
 }
 
 .navbar-links-footer-container a {
     color: #a1a1a1;
-    margin-top: 5px;
+    margin-top: 10px;
+    font-size: .8rem;
     display: block;
     text-decoration: none;
     &:hover {
@@ -60,52 +52,6 @@
     }
 }
 
-.title-footer-pedro-henrique-and-stacks-container h2 {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 1.3rem;
-}
-
-.title-footer-pedro-henrique-and-stacks-container p {
-    color: #a1a1a1;
-    margin-top: 5px;
-    font-size: .9rem;
-}
-
-.stack-footer-container {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    margin-top: 10px;
-    flex-wrap: wrap;
-}
-
-.stack-container-f {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    border: 1px solid #999;
-    border-radius: 10px;
-    padding: .3rem .5rem;
-    background-color: rgba(0, 0, 0, 0.4);
-    transition: .5s;
-    color: #a1a1a1;
-    &:hover {
-        background-color: transparent;
-    }
-}
-
-.stack-container-f p {
-    margin-top: 0px;
-    text-transform: uppercase;
-    font-size: .7rem;
-}
-
-.icon-language {
-    width: 15px;
-    height: 15px;
-}
 
 @media (max-width: 700px) {
     .about-portfolio-container h2 {

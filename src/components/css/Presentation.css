@@ -26,6 +26,10 @@
     font-weight: bold;
 }
 
+.presentation-container-text-more-info h2.animation {
+    transition: .5s;
+}
+
 .presentation-container-text-more-info p {
     max-width: 500px;
     color: #a1a1a1;
