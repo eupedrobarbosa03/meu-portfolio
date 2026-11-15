@@ -14,6 +14,8 @@
     object-fit: cover;
     filter: drop-shadow(0 0 5px #fff);
     outline: 1px solid #fff;
+    object-position: center;
+    opacity: .8;
 }
 
 .presentation-container-text-more-info {

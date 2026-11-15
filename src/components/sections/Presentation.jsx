@@ -1,5 +1,5 @@
 import '../css/Presentation.css'
-import MinhaFoto from '../../assets/img/minha_foto.jpg'
+import MinhaFoto from '../../assets/img/minha_foto.jpeg'
 import Reveal from '../animations/Reveal'
 import CV from '../../assets/cv.pdf'
 import { useState } from 'react'
